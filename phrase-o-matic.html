@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Phrase-o-matic</title>
+  <script type="text/javascript">
+    function makePhrases() {
+      var word1 = ["Colombia", "Medellin", "Antioquia"];
+      var word2 = ["espectacularmente", "maravillosamente", "increíblemente"];
+      var word3 = ["mágica", "encantadora", "acogedora"];
+
+      var rand1 = Math.floor(Math.random() * word1.length);
+      var rand2 = Math.floor(Math.random() * word2.length);
+      var rand3 = Math.floor(Math.random() * word3.length);
+
+      var phrase = word1[rand1] + " " + word2[rand2] + " " + word3[rand3];
+      alert(phrase);
+    }
+  makePhrases();
+
+  </script>
+</head>
+<body></body>
+</html>
